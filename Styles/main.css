@@ -76,6 +76,16 @@ body {
     transform: translateY(-2px);
 }
 
+.card-common{
+    box-shadow: 1px 2px 5px #999;
+    transition: all 0.4s;
+}
+
+.card-common:hover{
+    box-shadow: 2px 3px 25px #444;
+    transform: translateY(-3px);
+}
+
 @media(max-width : 768px) {
     .top-navbar {
         position: static !important;
